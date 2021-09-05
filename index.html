@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="uft-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>momentum</title>
+</head>
+
+<body>
+    <form class="hidden" id="login-form">
+        <input required maxlenth="15" type="text" placeholder="What is your name?" />
+        <input id="submit" type="submit" value="Log In" />
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+
+    <h2 class="clock">00:00:00</h2>
+
+    <div class="quote-box">
+        <span class="quote-span">Quote</span>
+        <div id="quote">
+            <span></span></br>
+            <span></span>
+        </div>
+    </div>
+    <div class="weather-box">
+        <span class="weather-span">Weather</span>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="todo-box">
+        <span class="todo-span">To do list</span>
+        <input id="todo" type="text" placeholder="Write a To Do!" required />
+        <ul id="todo-list"></ul>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+
+    <script url="https://www.ghibli.jp/info/013409/"></script>
+
+</body>
+
+</html>
