@@ -17,7 +17,7 @@ body {
   color: white;
   padding: 0px;
   text-align: center;
-  margin-top: -70px;
+  margin-top: -90px;
 }
 
 .quote-span {
@@ -79,7 +79,7 @@ img {
   text-align: center;
   margin-top: -10px;
   width: 215px;
-  margin-top: -70px;
+  margin-top: -90px;
 }
 
 .weather-span {
@@ -167,7 +167,7 @@ img {
   text-align: center;
   margin-top: -30px;
   width: 215px;
-  margin-top: -70px;
+  margin-top: -90px;
 }
 
 .todo-span {
